@@ -2,7 +2,7 @@ module:
   module.hugoVersion:
     extended: true
     min: '0.88.1'
-baseURL: 'https://www.example.com/'
+baseURL: 'https://main.d3r3ccxhnvcy15.amplifyapp.com/'
 # theme: 'up-business-theme'
 languageCode: 'en-us'
 
