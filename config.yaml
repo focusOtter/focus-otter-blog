@@ -2,7 +2,7 @@ module:
   module.hugoVersion:
     extended: true
     min: '0.88.1'
-baseURL: 'https://focusotter.com'
+baseURL: 'https://www.focusotter.com'
 # theme: 'up-business-theme'
 languageCode: 'en-us'
 
