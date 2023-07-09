@@ -1,4 +1,4 @@
-# Hugo Up Business Theme
+# Focus Otter Blog
 
 Up Business is a clean and modern landing page, inspired on light illustrations
 with a modern look, that can be used for companies or to showcase a product.
