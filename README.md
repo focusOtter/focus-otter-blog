@@ -1,4 +1,4 @@
-# Hugo Up Business Theme
+# Focus Otter Blog
 
 Up Business is a clean and modern landing page, inspired on light illustrations
 with a modern look, that can be used for companies or to showcase a product.
@@ -29,11 +29,4 @@ theme. It includes: the configuration file `config.yaml`, the content folder
 `content` and the `data` folder. It's a good idea to copy this over to the
 project folder to get an initial version of the website up and running.
 
-## Credits
 
-Hugo Up Business Theme is based on a [Figma Design by Abell
-Vo](https://www.figma.com/community/file/1022163547182520272).
-
-## License 
-
-Up Business is licensed under the MIT license.
