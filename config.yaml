@@ -5,7 +5,7 @@ module:
 baseURL: 'https://www.focusotter.cloud'
 # theme: 'up-business-theme'
 languageCode: 'en-us'
-
+enableEmoji: true
 title: 'Focus Otter 🦦'
 
 # googleAnalytics: ""
