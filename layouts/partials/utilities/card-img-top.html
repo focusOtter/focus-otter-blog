@@ -1,3 +1,11 @@
-{{ with resources.Get . }}
-  <img class="" src="{{ .Permalink }}" alt="{{ .Title }}" width="{{ .Width }}" height="{{ .Height }}">
-{{ end }}
+{{- if hasPrefix . "http" -}}
+<img class="" src="{{ . }}" alt="" width="" height="" />
+{{- else -}} {{- with resources.Get . -}}
+<img
+	class=""
+	src="{{ .Permalink }}"
+	alt="{{ .Title }}"
+	width="{{ .Width }}"
+	height="{{ .Height }}"
+/>
+{{- end -}} {{- end -}}
