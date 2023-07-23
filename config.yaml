@@ -38,9 +38,13 @@ menus:
       url: '/blog'
       weight: 2
 
+    - name: 'Newsletter'
+      url: 'https://buttondown.email/focusotter/archive'
+      weight: 3
+
     - name: 'Shop'
       url: '/shop'
-      weight: 3
+      weight: 4
 
   buttons:
     - name: 'Book a call'
