@@ -1,3 +1,9 @@
 {{ with resources.Get . }}
-  <img class="" src="{{ .Permalink }}" alt="{{ .Title }}" width="{{ .Width }}" height="{{ .Height }}">
+<img
+	class=""
+	src="{{ .Permalink }}"
+	alt="{{ .Title }}"
+	width="{{ .Width }}"
+	height="{{ .Height }}"
+/>
 {{ end }}

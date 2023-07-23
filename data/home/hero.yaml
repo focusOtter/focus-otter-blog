@@ -1,15 +1,14 @@
 enabled: true
-id: "hero"
+id: 'hero'
 
 content:
-  title: "How to **level up** your business"
-  text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est faucibus tellus leo non pellentesque lorem vel. Arcu magna eros, potenti duis."
+  title: 'Modern **frontend** & **serverless** solutions'
+  text: 'Focus Otter Solutions teaches fullstack development in a practical way. No heavy jargon, just practical examples on frontend development, AWS, and developer advocacy.'
 
   buttonPrimary:
-    label: "How we work"
-    url: "#"
+    label: 'Read a post'
+    url: '/posts'
 
   buttonSecondary:
-    label: "Let's talk"
-    url: ""
-
+    label: 'Book a call'
+    url: 'https://calendly.com/focusotter/30min-zoom-chat'

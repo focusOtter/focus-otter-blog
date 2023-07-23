@@ -21,6 +21,9 @@
 					<div class="card-body">
 						<h5 class="card-title fw-semibold">{{ .Title }}</h5>
 
+						<p class="card-text text-black-61">
+							{{ .Params.date.Format "January 02, 2006" }}
+						</p>
 						<p class="card-text text-black-61">{{ .Summary | plainify }}</p>
 					</div>
 				</a>

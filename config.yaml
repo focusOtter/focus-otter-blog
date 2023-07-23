@@ -6,7 +6,7 @@ baseURL: 'https://www.focusotter.cloud'
 # theme: 'up-business-theme'
 languageCode: 'en-us'
 enableEmoji: true
-title: 'Focus Otter 🦦'
+title: 'Focus Otter'
 
 # googleAnalytics: ""
 
@@ -14,30 +14,17 @@ summaryLength: 20
 
 params:
   title: 'Focus Otter'
-  description: 'We specialize in providing services to desing websites, applications, build and maintain business for customers.'
+  description: 'Fullstack solutions for todays modern developer. Where modern frontend development meets the scalability of AWS'
   images:
     - 'images/hero-image.png'
 
-  logo: 'arrow-up.png'
-
-  favicons:
-    themeColor: '#FFFFFF'
-    backgroundColor: '#FFFFFF'
-    faviconColor: '#000000'
+  logo: 'logo.png'
 
   social:
-    dribbble: '#'
-    instagram: '#'
-    facebook: '#'
     twitter: 'https://twitter.com/intent/follow?screen_name=focusotter'
 
-  location:
-    - '3891 Ranchview Dr. Richardson, California 62639'
-    - '4517 Washington Ave. Manchester, Kentucky 39495'
-
   contact:
-    - 'trungkienspktnd@gamail.com'
-    - '207.555.0119'
+    - 'mtliendo@focusotter.com'
 
   copyright: '© 2023 Focus Otter All Rights Reserved'
 
@@ -50,6 +37,10 @@ menus:
     - name: 'Blog'
       url: '/blog'
       weight: 2
+
+    - name: 'Shop'
+      url: '/shop'
+      weight: 3
 
   buttons:
     - name: 'Book a call'
