@@ -34,13 +34,13 @@ Admittedly, it took me longer in figuring where to find my token than it did to 
 
 Click the "Generate New Token" button and give your token a name.
 
-{{< figure class="fig-img" src="https://cdn.hashnode.com/res/hashnode/image/upload/v1628995413862/ze-_wTb7t.png" title="generate token" >}}
+![generate token](https://cdn.hashnode.com/res/hashnode/image/upload/v1628995413862/ze-_wTb7t.png)
 
 That's it 🎉 Now you should see your secret token.
 
 > 🗒️ As is mentioned on the site, you'll want to copy that somewhere safe because once you navigate away from the page, you won't be able to access the token again and can only generate a new one. In codeSandbox, the easiest way to do this, is to make your project private or an a minimum, unlisted
 
-{{< figure class="fig-img" src="https://cdn.hashnode.com/res/hashnode/image/upload/v1628995415846/wiFxXV9Dv.png" title="generate token" >}}
+![sandbox](https://cdn.hashnode.com/res/hashnode/image/upload/v1628995415846/wiFxXV9Dv.png)
 
 ## Reading the Docs
 
@@ -133,7 +133,7 @@ Here, we say the method is `put` because we are _sending_ data. The headers are 
 
 That alone is enough to get the color to change! If all went well, you should see something like the below tweet
 
-{%twitter 1250285107077771265 %}
+{{< tweet user="focusotter" id="1250285107077771265" >}}
 
 ---
 
@@ -155,4 +155,4 @@ Normally, when using `fetch`, only a small amount of headers are actually availa
 
 There are actually plenty of other headers to checkout as well! I included an award-winning screenshot of how to find them:
 
-{{< figure class="fig-img" src="https://cdn.hashnode.com/res/hashnode/image/upload/v1628995417865/hSkZSgvWs.png" title="network tab" >}}
+![network tab](https://cdn.hashnode.com/res/hashnode/image/upload/v1628995417865/hSkZSgvWs.png)
