@@ -1,14 +1,12 @@
-+++
-author = "Michael Liendo"
-title = "Automate Home Lights With The Fetch API"
-image = "https://res.cloudinary.com/dgtvzkmvu/image/upload/f_auto,q_auto/v1689496355/home-automation/cover_ocgv2i.png"
-date = "2020-04-15"
-description = "Now that I've settled into being home more-so than usual, I'm looking for ways to improve my decor."
-username = "focusotter"
-tags = [
-    "automation",
-]
-+++
+---
+author: 'Michael Liendo'
+title: 'Automate Home Lights With The Fetch API'
+image: 'https://res.cloudinary.com/dgtvzkmvu/image/upload/f_auto,q_auto/v1689496355/home-automation/cover_ocgv2i.png'
+date: 2023-06-15
+description: "Now that I've settled into being home more-so than usual, I'm looking for ways to improve my decor."
+username: 'focusotter'
+tags: ['automation']
+---
 
 I read that [interior lighting](https://www.google.com/search?q=indoor+color+lighting&tbm=isch) can boost your mood, the same way colors on a web page can. So I decided to purchase some [LIFX Mini bulbs](https://www.lifx.com/collections/lights/products/lifx-mini-color)--no hub required, and can say after a couple days, it's definitely helped keep me sane during these times.
 
