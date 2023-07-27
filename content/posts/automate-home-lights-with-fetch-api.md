@@ -2,6 +2,7 @@
 author: 'Michael Liendo'
 title: 'Automate Your Home Lights with the Fetch API'
 image: 'https://res.cloudinary.com/dgtvzkmvu/image/upload/f_auto,q_auto/v1689496355/home-automation/cover_ocgv2i.png'
+slug: automate-home-lights-with-javascript
 date: 2023-06-15
 description: "Now that I've settled into being home more-so than usual, I'm looking for ways to improve my decor."
 username: 'focusotter'
