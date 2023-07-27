@@ -1,6 +1,6 @@
 ---
 author: 'Michael Liendo'
-title: 'Automate Home Lights with the Fetch API'
+title: 'Automate Your Home Lights with the Fetch API'
 image: 'https://res.cloudinary.com/dgtvzkmvu/image/upload/f_auto,q_auto/v1689496355/home-automation/cover_ocgv2i.png'
 date: 2023-06-15
 description: "Now that I've settled into being home more-so than usual, I'm looking for ways to improve my decor."
@@ -62,7 +62,7 @@ It's worth reading over the [Authentication](https://api.developer.lifx.com/docs
 
 As mentioned above, if you have your secret token, feel free to plug that into the `super-secret-token.js` file's `TOKEN` area and click the _List Light ids_ button to get your lights. From there, pick and id, plug it into the other secret value, and it should Just Work™️
 
-{% codesandbox 6uqyc %}
+{{< codesandbox light-changing-demo-6uqyc >}}
 
 For those still with me, let's use the sandbox above and take a tour of the code.
 
