@@ -1,0 +1,28 @@
+name: Call Endpoint on Push to Main
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  call_endpoint:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check commit message for "--crosspost"
+        run: |
+          COMMIT_MESSAGE="${{ github.event.head_commit.message }}"
+          if echo "$COMMIT_MESSAGE" | grep -q -E -- "--crosspost"; then
+            echo "Commit message contains '--crosspost'. Invoking Lambda..."
+            curl -X POST -H "Content-Type: application/json" \
+              -d '{
+                "ref": "${{ github.ref }}", 
+                "repo": "${{ github.repository }}", 
+                "commit": "${{ github.event.after }}"
+              }' \
+              "${{ secrets.ENDPOINT }}"
+          else
+            echo "Commit message does not contain '--crosspost'. Skipping Lambda invocation."
+            exit 0
+          fi
